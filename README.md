@@ -1,6 +1,9 @@
 # myan-lottery
-#SaveMyanmar &amp; Use it
-
+#SaveMyanmar &amp; Use it.
+<p>Version</p>
+<p><b>v1.0_Dev</b></p>
+<p>Require </p>
+<p><b>PHP-7.4 or Higher</b></p>
 <h1>Myan Lottery Documentation</h1>
 <br>
 <p>There are two types of class in my package. <b>Two d </b> and <b>Three d</b></p>
