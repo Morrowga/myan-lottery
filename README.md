@@ -23,9 +23,9 @@
 <p><b>return $example->function();</b></p>
 <br>
 <ul>
-    <li><b>အာဂဏန်း function - reverse_array($number)</b> - (<b>$number</b> နေရာတွင် <b>00</b> မှ <b>99</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။) စာကြွင်း - <b>$number(array)</b></li>
+    <li><b>အာဂဏန်း function - reverse_array($number)</b> - <b>$number</b> နေရာတွင် <b>00</b> မှ <b>99</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။ စာကြွင်း - <b>$number(array)</b></li>
 		<br>
-    <li><b>အာဂဏန်း function - reverse_string($number)</b> - (<b>$number</b> နေရာတွင် <b>00</b> မှ <b>99</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။) စာကြွင်း - <b>$number(string)</b></li>
+    <li><b>အာဂဏန်း function - reverse_string($number)</b> - <b>$number</b> နေရာတွင် <b>00</b> မှ <b>99</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 		<br>
     <li><b>နက္ခတ် function - natkhat()</b></li>
 		<br>
@@ -39,9 +39,9 @@
 		<br>
     <li><b>ဆယ်ပြည့် function - salpyae()</b></li>
 		<br>
-    <li><b>ဘရိတ်( အာဂဏန်းပါ ) function - break_round($number)</b> - (<b>$number</b> နေရာတွင် <b>0</b> မှ <b>18</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။) စာကြွင်း - <b>$number(string)</b></li>
+    <li><b>ဘရိတ်( အာဂဏန်းပါ ) function - break_round($number)</b> - <b>$number</b> နေရာတွင် <b>0</b> မှ <b>18</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 		<br>
-    <li><b>ဘရိတ်( အာဂဏန်းမပါ ) function - break($number)</b> - (<b>$number</b> နေရာတွင် <b>0</b> မှ <b>18</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။) စာကြွင်း - <b>$number(string)</b></li>
+    <li><b>ဘရိတ်( အာဂဏန်းမပါ ) function - break($number)</b> - <b>$number</b> နေရာတွင် <b>0</b> မှ <b>18</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 		<br>
     <li><b>စုံ function - even()</b></li>
 		<br>
@@ -59,13 +59,13 @@
 		<br>
     <li><b>ဂဏန်းသေး function - smallNumber()</b></li>
 		<br>
-    <li><b>ထိပ်စီး function - htatesee($number)</b> - (<b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။) စာကြွင်း - <b>$number(string)</b></li>
+    <li><b>ထိပ်စီး function - htatesee($number)</b> - <b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 		<br>
-    <li><b>နောက်ပိတ် function - naukpate($number)</b> - (<b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။) စာကြွင်း - <b>$number(string)</b></li>
+    <li><b>နောက်ပိတ် function - naukpate($number)</b> - <b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 		<br>
-    <li><b>တစ်လုံးပတ် function - oneround($number)</b> - (<b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။) စာကြွင်း - <b>$number(string)</b></li>
+    <li><b>တစ်လုံးပတ် function - oneround($number)</b> - <b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 		<br>
-    <li><b>နံပါတ်နှစ်ခုအတွင်းအကွာအ၀ေး function - number_arrange($number1,$number2)</b> - (<b>$number1,$number2</b> နေရာတွင် <b>00</b> မှ <b>99</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။) စာကြွင်း - <b>$number(string)</b></li>
+    <li><b>နံပါတ်နှစ်ခုအတွင်းအကွာအ၀ေး function - number_arrange($number1,$number2)</b> - <b>$number1,$number2</b> နေရာတွင် <b>00</b> မှ <b>99</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 </ul>
 <br>
 <h3>Three D Usage </> </h3>
@@ -78,29 +78,29 @@
 <p><b>return $example->function();</b></p>
 <br>
 <ul>
-    <li><b>အာဂဏန်း function - r_origin_array($number)</b> - (<b>$number</b> နေရာတွင် <b>000</b> မှ <b>999</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။) စာကြွင်း - <b>$number(array)</b></li>
+    <li><b>အာဂဏန်း function - r_origin_array($number)</b> - <b>$number</b> နေရာတွင် <b>000</b> မှ <b>999</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။ စာကြွင်း - <b>$number(array)</b></li>
    	<br>
-    <li><b>အာဂဏန်း function - r_origin_string($number)</b> - (<b>$number</b> နေရာတွင် <b>000</b> မှ <b>999</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။) စာကြွင်း - <b>$number(string)</b></li>
+    <li><b>အာဂဏန်း function - r_origin_string($number)</b> - <b>$number</b> နေရာတွင် <b>000</b> မှ <b>999</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 	<br>
-    <li><b>အာဂဏန်း( ထည့်ဂဏန်းမပါ ) function - r_no_origin_array($number)</b> - (<b>$number</b> နေရာတွင် <b>000</b> မှ <b>999</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။) စာကြွင်း - <b>$number(array)</b></li>
+    <li><b>အာဂဏန်း( ထည့်ဂဏန်းမပါ ) function - r_no_origin_array($number)</b> - <b>$number</b> နေရာတွင် <b>000</b> မှ <b>999</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။ စာကြွင်း - <b>$number(array)</b></li>
 	<br>
-    <li><b>အာဂဏန်း( ထည့်ဂဏန်းမပါ ) function - r_no_origin_string($number)</b> - (<b>$number</b> နေရာတွင် <b>000</b> မှ <b>999</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။) စာကြွင်း - <b>$number(string)</b></li>
+    <li><b>အာဂဏန်း( ထည့်ဂဏန်းမပါ ) function - r_no_origin_string($number)</b> - <b>$number</b> နေရာတွင် <b>000</b> မှ <b>999</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 	<br>
-    <li><b>တွတ်ဂဏန်း</b> <b>function - took_string($number, $luckynumber)</b> - (<b>$luckynumber</b> နေရာတွင် <b>000</b> မှ <b>999</b> အထိပေါက်ဂဏန်းထည့်၍ <b>$number</b> နေရာတွင် <b>000</b> မှ <b>999</b> ထိ မိမိရှာမည့် ဂဏန်းအားထည့်ပြီး အသုံးပြုနိုင်ပါသည်။) စာကြွင်း - <b>$number(string) $luckynumber(string)</b></li>
+    <li><b>တွတ်ဂဏန်း</b> <b>function - took_string($number, $luckynumber)</b> - <b>$luckynumber</b> နေရာတွင် <b>000</b> မှ <b>999</b> အထိပေါက်ဂဏန်းထည့်၍ <b>$number</b> နေရာတွင် <b>000</b> မှ <b>999</b> ထိ မိမိရှာမည့် ဂဏန်းအားထည့်ပြီး အသုံးပြုနိုင်ပါသည်။ စာကြွင်း - <b>$number(string) $luckynumber(string)</b></li>
 	<br>
-    <li><b>တွတ်ဂဏန်း</b> <b>function - took_array($number, $luckynumber)</b> - (<b>$luckynumber</b> နေရာတွင် <b>000</b> မှ <b>999</b> အထိပေါက်ဂဏန်းထည့်၍ <b>$number</b> နေရာတွင် <b>000</b> မှ <b>999</b> ထိ မိမိရှာမည့် ဂဏန်းအားထည့်ပြီး အသုံးပြုနိုင်ပါသည်။) စာကြွင်း - <b>$number(array) $luckynumber(string)</b></li>
+    <li><b>တွတ်ဂဏန်း</b> <b>function - took_array($number, $luckynumber)</b> - <b>$luckynumber</b> နေရာတွင် <b>000</b> မှ <b>999</b> အထိပေါက်ဂဏန်းထည့်၍ <b>$number</b> နေရာတွင် <b>000</b> မှ <b>999</b> ထိ မိမိရှာမည့် ဂဏန်းအားထည့်ပြီး အသုံးပြုနိုင်ပါသည်။ စာကြွင်း - <b>$number(array) $luckynumber(string)</b></li>
 	<br>
     <li><b>အပူး</b> <b>function - apuu()</b></li>
 	<br>
     <li><b>ရှေ့ပူးဂဏန်းအားလုံး</b> <b>function - shaepuu_all()</b></li>
 	<br>
-    <li><b>ရှေ့ပူး( ရှာဂဏန်း )</b>function</b> - <b>shaepuu($number)</b> - (<b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ ရှာနိုင်ပါသည်။) စာကြွင်း - <b>$number(string)</b></li>
+    <li><b>ရှေ့ပူး( ရှာဂဏန်း )</b>function</b> - <b>shaepuu($number)</b> - <b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ ရှာနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 	<br>
     <li><b>နောက်ပူးဂဏန်းအားလုံး</b> <b>function - naukpuu_all()</b></li>
 	<br>
-    <li><b>နောက်ပူး( ရှာဂဏန်း )<b/> <b>function - naukpuu($number)</b> - (<b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ ရှာနိုင်ပါသည်။) စာကြွင်း - <b>$number(string)</b></li>
+    <li><b>နောက်ပူး( ရှာဂဏန်း )<b/> <b>function - naukpuu($number)</b> - <b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ ရှာနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 	<br>
     <li><b>ရှေ့အနောက်ဂဏန်းအားလုံး</b> <b>function - shaenaukpuu_all()</b></li>
 	<br>
-    <li><b>ရှေ့အနောက်အပူး( ရှာဂဏန်း )</b> <b>function - shaenaukpuu($number)</b> - (<b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ ရှာနိုင်ပါသည်။) စာကြွင်း - <b>$number(string)</b></li>
+    <li><b>ရှေ့အနောက်အပူး( ရှာဂဏန်း )</b> <b>function - shaenaukpuu($number)</b> - <b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ ရှာနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 </ul>
