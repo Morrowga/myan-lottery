@@ -23,13 +23,13 @@
 <p><b>return $example->function();</b></p>
 <br>
 <ul>
-    <li>အာဂဏန်း <b>function - reverse_array($number)</b> - (<b>$number</b> နေရာတွင် <b>00<b/> မှ <b>99</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။) စာကြွင်း - <b>$number(array)</b></li>
+    <li>အာဂဏန်း <b>function - reverse_array($number)</b> - (<b>$number</b> နေရာတွင် <b>00</b> မှ <b>99</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။) စာကြွင်း - <b>$number(array)</b></li>
 		<br>
     <li>အာဂဏန်း <b>function - reverse_string($number)</b> - (<b>$number</b> နေရာတွင် <b>00</b> မှ <b>99</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။) စာကြွင်း - <b>$number(string)</b></li>
 		<br>
     <li>နက္ခတ် <b>function - natkhat()</b></li>
 		<br>
-    <li>ပါ၀ါ <b>function - power()<b/></li>
+    <li>ပါ၀ါ <b>function - power()</b></li>
 		<br>
     <li>ညီအကို <b>function - nyiko()</b></li>
 		<br>
@@ -55,7 +55,7 @@
 		<br>
     <li>မမ <b>function - sameodd()</b></li>
 		<br>
-    <li>ဂဏန်းကြီး <b>function - bigNumber()<b/></li>
+    <li>ဂဏန်းကြီး <b>function - bigNumber()</b></li>
 		<br>
     <li>ဂဏန်းသေး <b>function - smallNumber()</b></li>
 		<br>
@@ -63,7 +63,7 @@
 		<br>
     <li>နောက်ပိတ် <b>function - naukpate($number)</b> - (<b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။) စာကြွင်း - <b>$number(string)</b></li>
 		<br>
-    <li>တစ်လုံးပတ် <b>function - oneround($number)</b> - (<b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။) စာကြွင်း - <b>$number(string)<b/></li>
+    <li>တစ်လုံးပတ် <b>function - oneround($number)</b> - (<b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။) စာကြွင်း - <b>$number(string)</b></li>
 		<br>
     <li>နံပါတ်နှစ်ခုအတွင်းအကွာအ၀ေး <b>function - number_arrange($number1,$number2)</b> - (<b>$number1,$number2</b> နေရာတွင် <b>00</b> မှ <b>99</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။) စာကြွင်း - <b>$number(string)</b></li>
 </ul>
