@@ -1,0 +1,19 @@
+{
+    "name": "myanlottery/lottery",
+    "description": "#savemyanmar",
+    "type": "lottery",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thihaeung",
+            "email": "thihaeung@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MyanLottery\\Lottery\\": "src/"
+        }
+    }
+}
