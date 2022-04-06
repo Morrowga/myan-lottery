@@ -11,17 +11,17 @@
 <p>There are two types of class in my package.Two d and Three d.</p>
 <br>
 <hr>
-<h3>Installation </> </h3>
+<h1>Installation </> </h1>
 <p>$ composer require myanlottery/lottery</p>
 <br>
 <hr>
-<h3><b>Declare Class </> </b></h3>
+<h2><b>Declare Class </> </b></h2>
 <br>
 <p>use <b>MyanLottery\Lottery\Twod;</b></p>
 <p>use <b>MyanLottery\Lottery\Threed;</b></p>
 <br>
 <hr>
-<h3>Two D Usage </> </h3>
+<h2>Two D Usage </> </h2>
 <br>
 <p>နှစ်လုံးထီ အတွက် <b>Twod Class</b> ကို <b>Declare</b> လုပ်ပြီးပါက အောက်ပါ <b>functions</b> များကို အသုံးပြုနိုင်ပါသည်။</p>
 <br>
@@ -80,14 +80,16 @@
 </ul>
 <br>
 <hr>
-<h3>Three D Usage </> </h3>
+<h2>Three D Usage </> </h2>
 <br>
 <p>သုံးလုံးထီ အတွက် <b>Threed Class</b> ကို <b>Declare</b> လုပ်ပြီးပါက အောက်ပါ <b>functions</b> များကို အသုံးပြုနိုင်ပါသည်။</p>
 <br>
 <p><b>Example </> </b></p>
 <br>
-<p><b>$example = new Threed();</b></p>
-<p><b>return $example->function();</b></p>
+<p>public function() { </p>
+<p>$example = new Threed();</p>
+<p>return $example->function();</p>
+<p>}</p>
 <br>
 <ul>
     <li><b>အာဂဏန်း function</b> - r_origin_array($number) - <b>$number</b> နေရာတွင် <b>000</b> မှ <b>999</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။ စာကြွင်း - <b>$number(array)</b></li>
@@ -106,14 +108,18 @@
 	<br>
     <li><b>ရှေ့ပူးဂဏန်းအားလုံး</b> <b>function</b> - shaepuu_all()</li>
 	<br>
-    <li><b>ရှေ့ပူး( ရှာဂဏန်း )</b>function -shaepuu($number) - <b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ ရှာနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
+    <li><b>ရှေ့ပူး( ရှာဂဏန်း ) function </b> -shaepuu($number) - <b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ ရှာနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 	<br>
-    <li><b>နောက်ပူးဂဏန်းအားလုံး</b>function - naukpuu_all()</li>
+    <li><b>နောက်ပူးဂဏန်းအားလုံးfunction</b> - naukpuu_all()</li>
 	<br>
-    <li><b>နောက်ပူး( ရှာဂဏန်း )<b/>function - naukpuu($number) - <b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ ရှာနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
+    <li><b>နောက်ပူး( ရှာဂဏန်း ) function<b/> - naukpuu($number) - <b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ ရှာနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 	<br>
     <li><b>ရှေ့အနောက်ဂဏန်းအားလုံး</b>function - shaenaukpuu_all()</li>
 	<br>
+   <li><b>စုံပူး function</b> - sonepuu()</li>
+  <br>
+   <li><b>မပူး function</b> - mapuu()</li>
+  <br>
     <li><b>ရှေ့အနောက်အပူး( ရှာဂဏန်း )</b>function - shaenaukpuu($number) - <b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ ရှာနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 </ul>
 
