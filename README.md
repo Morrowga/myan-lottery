@@ -46,9 +46,7 @@
 		<br>
     <li> <b> ဆယ်ပြည့် function</b> - salpyae()</li>
 		<br>
-    <li><b>အပူး function</b> - salpyae()</li>
-		<br>
-    <li><b>ဆယ်ပြည့် function</b> - salpyae()</li>
+    <li><b>အပူး function</b> - apuu()</li>
 		<br>
     <li><b>ဘရိတ်( အာဂဏန်းပါ ) function</b> - break_round($number) - <b>$number</b> နေရာတွင် <b>0</b> မှ <b>18</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 		<br>
