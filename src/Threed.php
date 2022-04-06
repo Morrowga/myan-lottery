@@ -454,4 +454,22 @@ class Threed
         throw new \ErrorException("Expected string length is 1.  ". strlen($num) . " given. Called shaenaukpuu() function.");
     }
 
+    public function sonepuu(){
+        $data = [
+            '000','222','444','666','888'
+        ];
+        return response()->json([
+            "data" => $data
+        ],200);
+    }
+
+    public function mapuu(){
+        $data = [
+            '111','333','555','777','999'
+        ];
+        return response()->json([
+            "data" => $data
+        ],200);
+    }
+
 }
