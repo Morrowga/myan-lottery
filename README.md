@@ -1,7 +1,7 @@
 # myan-lottery
 #SaveMyanmar &amp; Use it.
 <p>Version</p>
-<p><b>v1.0_Dev</b></p>
+<p><b>v1.0 Dev</b></p>
 <p>Require </p>
 <p><b>PHP-7.4 or Higher</b></p>
 <h1>Myan Lottery Documentation</h1>
@@ -89,9 +89,9 @@
 	<br>
     <li><b>အာဂဏန်း( ထည့်ဂဏန်းမပါ ) function - r_no_origin_string($number)</b> - <b>$number</b> နေရာတွင် <b>000</b> မှ <b>999</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 	<br>
-    <li><b>တွတ်ဂဏန်း</b> <b>function - took_string($number, $luckynumber)</b> - <b>$luckynumber</b> နေရာတွင် <b>000</b> မှ <b>999</b> အထိပေါက်ဂဏန်းထည့်၍ <b>$number</b> နေရာတွင် <b>000</b> မှ <b>999</b> ထိ မိမိရှာမည့် ဂဏန်းအားထည့်ပြီး အသုံးပြုနိုင်ပါသည်။ စာကြွင်း - <b>$number(string) $luckynumber(string)</b></li>
+    <li><b>တွတ်ဂဏန်း</b> <b>function - took_string($number, $luckynumber)</b> - <b>$luckynumber</b> နေရာတွင် <b>000</b> မှ <b>999</b> အထိပေါက်ဂဏန်းထည့်၍ <b>$number</b> နေရာတွင် <b>000</b> မှ <b>999</b> ထိ မိမိရှာမည့် ဂဏန်းအားထည့်ပြီး အသုံးပြုနိုင်ပါသည်။ စာကြွင်း - <b>$number(string) , $luckynumber(string)</b></li>
 	<br>
-    <li><b>တွတ်ဂဏန်း</b> <b>function - took_array($number, $luckynumber)</b> - <b>$luckynumber</b> နေရာတွင် <b>000</b> မှ <b>999</b> အထိပေါက်ဂဏန်းထည့်၍ <b>$number</b> နေရာတွင် <b>000</b> မှ <b>999</b> ထိ မိမိရှာမည့် ဂဏန်းအားထည့်ပြီး အသုံးပြုနိုင်ပါသည်။ စာကြွင်း - <b>$number(array) $luckynumber(string)</b></li>
+    <li><b>တွတ်ဂဏန်း</b> <b>function - took_array($number, $luckynumber)</b> - <b>$luckynumber</b> နေရာတွင် <b>000</b> မှ <b>999</b> အထိပေါက်ဂဏန်းထည့်၍ <b>$number</b> နေရာတွင် <b>000</b> မှ <b>999</b> ထိ မိမိရှာမည့် ဂဏန်းအားထည့်ပြီး အသုံးပြုနိုင်ပါသည်။ စာကြွင်း - <b>$number(array) , $luckynumber(string)</b></li>
 	<br>
     <li><b>အပူး</b> <b>function - apuu()</b></li>
 	<br>
