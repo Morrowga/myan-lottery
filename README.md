@@ -68,7 +68,7 @@
 		<br>
     <li><b>ဂဏန်းသေး function</b> - smallNumber()</li>
 		<br>
-    <li><b>ထိပ်စီး function</b> - htatesee($number) - <b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
+    <li><b> ထိပ်စီး function </b> - htatesee($number) - <b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 		<br>
     <li><b>နောက်ပိတ် function</b> - naukpate($number) - <b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ သုံးနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 		<br>
