@@ -1,5 +1,5 @@
 # myan-lottery
-#SaveMyanmar &amp; Use it.
+#SaveMyanmar.
 <p>Version</p>
 <p><b>v1.0</b></p>
 <p>Require </p>
