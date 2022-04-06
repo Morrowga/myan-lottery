@@ -107,3 +107,9 @@
 	<br>
     <li><b>ရှေ့အနောက်အပူး( ရှာဂဏန်း )</b> <b>function - shaenaukpuu($number)</b> - <b>$number</b> နေရာတွင် <b>0</b> မှ <b>9</b> အထိကြိုက်ရာထည့်၍ ရှာနိုင်ပါသည်။ စာကြွင်း - <b>$number(string)</b></li>
 </ul>
+
+<h3>Function in Blade Views</h3>
+<br>
+<p>Example - {{ \MyanLottery\Lottery\Twod::function() }}</p>
+<br>
+<p><b>function() နေရာတွင် ဖော်ပြခဲ့သော function များအား အစားထိုးအသုံးပြုနိုင်ပါသည်။</b></p>
