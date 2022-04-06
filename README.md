@@ -4,8 +4,8 @@
 <p><b>v1.0</b></p>
 <p>Require </p>
 <p><b>PHP-7.4 or Higher</b></p>
-<span href="" style="color: blue;">Donation - 09795864194 ( K Pay )</span>
-<span href="" style="color: red;">Contact me - thihaeung@gmail.com</span>
+<p><b>Donation - 09795864194 ( K Pay ) Thi Ha Aung</b></p>
+<p><b>Contact me - thihaeung@gmail.com</b></p>
 <h1>Myan Lottery Documentation</h1>
 <br>
 <p>There are two types of class in my package.Two d and Three d.</p>
