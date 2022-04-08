@@ -247,21 +247,18 @@ class Threed
                 return response()->json(["data" => $number],200);
             } else if($split[0] === $split[1]) {
                 $res = [
-                    $split[0] . $split[1] . $split[2],
                     $split[0] . $split[2] . $split[1],
                     $split[2] . $split[1] . $split[0],
                 ];
                 return response()->json(['data' => $res],200);
             }  else if($split[0] === $split[2]){
                 $res = [
-                    $split[0] . $split[1] . $split[2],
                     $split[0] . $split[2] . $split[1],
                     $split[1] . $split[2] . $split[0],
                 ];
                 return response()->json(['data' => $res],200);
             } else if($split[1] === $split[2]){
                 $res = [
-                    $split[0] . $split[1] . $split[2],
                     $split[1] . $split[0] . $split[2],
                     $split[1] . $split[2] . $split[0],
                 ];
@@ -284,7 +281,6 @@ class Threed
                         array_push($third,$s);
                     }
                 }
-
                 foreach($third as $t){
                     if($t !== $number){
                         array_push($res_array, $t);
@@ -300,18 +296,30 @@ class Threed
     public function took_string(String $num,String $lucky){
         if(strlen($lucky) === 3 && strlen($num) === 3){
             $split = str_split($num);
+            $l_split = str_split($lucky);
             $calculate_process = (int) $lucky;
+            $fetch = $this->numbers();
             $calculate_res_one = $calculate_process + 1;
             $calculate_res_two = $calculate_process - 1;
-            
+            $last = [];
         
             if($num === (string) $calculate_res_one || $num === (string) $calculate_res_two){
                 return response()->json(true);
-            } else if(str_contains($lucky, $split[0]) && str_contains($lucky, $split[1]) && str_contains($lucky, $split[2])) {
-                return response()->json(true);
             } else {
+               $r = $this->r_no_origin_string($lucky);
+               $a = json_decode(json_encode($r), true);
+                foreach($a['original']['data'] as $ra){
+                    if($ra == $num){
+                        array_push($last,$ra);
+                    }
+                }
+
+                if(sizeof($last) > 0){
+                    return response()->json(true);
+                }
                 return response()->json(false);
             }
+            
         }
         throw new \ErrorException("Expected string length is 3. More given. Called took_string() function.");
     }
@@ -322,13 +330,18 @@ class Threed
             $calculate_res_one = $calculate_process + 1;
             $calculate_res_two = $calculate_process - 1;
             $res_array = [];
+            $r = $this->r_no_origin_string($lucky);
             foreach($num as $datum){
                 if(strlen($datum) === 3){
-                    $split = str_split($datum);
-                    if($datum === (string) $calculate_res_one || $num === (string) $calculate_res_two){
+                    if($datum === (string) $calculate_res_one || $datum === (string) $calculate_res_two){
                         array_push($res_array, $datum);
-                    } else if(str_contains($lucky, $split[0]) && str_contains($lucky, $split[1]) && str_contains($lucky, $split[2])){
-                        array_push($res_array, $datum);
+                    } else {
+                        $a = json_decode(json_encode($r), true);
+                         foreach($a['original']['data'] as $ra){
+                             if($ra == $datum){
+                                 array_push($res_array,$ra);
+                             }
+                         }
                     }
                 } else {
                     throw new \ErrorException("Expected string length is 3.  ". strlen($datum) . " given. Called took_array() function.");
